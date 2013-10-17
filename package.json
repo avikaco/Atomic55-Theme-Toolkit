@@ -1,0 +1,33 @@
+{
+    "name": "atomic55-theme-toolkit",
+    "author": "http://atomic55.net/?utm_source=wordpress-plugin&utm_medium=themecustomiser&utm_term=help&utm_campaign=wordpress+plugin",
+    "version": "0.1",
+    "dependencies": {},
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-uglify": "~0.2.0",
+        "grunt-contrib-watch": "~0.3.1",
+        "grunt-contrib-jshint": "~0.4.0",
+        "node-markdown": "0.1.1"
+    },
+    "requires": "3.3.1",
+    "tested": "3.5.1",
+    "description": "Plugin Description here",
+    "installation": "Installatio note",
+    "screenshots": "Screenshot",
+    "changelog": "Chagelogs",
+    "keywords": "wordpress, plugin, customizetheme",
+    "download_link": "https://github.com/avikaco/Atomic55-Theme-Toolkit/archive/master.zip",
+    "slug": "estatevue/estatevue.php",
+    "plugin_name": "estatevue/estatevue.php",
+    "url": "http: //www.estatevue.com/ref/wp-plugin/?utm_source=wordpress-plugin&utm_medium=themecustomiser&utm_term=help&utm_campaign=wordpress+plugin",
+    "homepage": "http: //atomic55.net/?utm_source=wordpress-plugin&utm_medium=themecustomiser&utm_term=help&utm_campaign=wordpress+plugin",
+    "external": "http: //www.estatevue.com/ref/wp-plugin/?utm_source=wordpress-plugin&utm_medium=themecustomiser&utm_term=help&utm_campaign=wordpress+plugin",
+    "downloaded": 137,
+    "last_update": "2013-10-14",
+    "bug": {
+        "url": "https: //github.com/avikaco/Atomic55-Theme-Toolkit/issues",
+        "email": "avikaco@gmail.com"
+    },
+    "license": "BSD"
+}

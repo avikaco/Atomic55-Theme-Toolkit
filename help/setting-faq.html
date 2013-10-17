@@ -1,0 +1,46 @@
+<p><strong>Frequently Asked Questions</strong></p>
+
+<p>
+	<strong>How I get custom theme customizer value?</strong><br>
+	You can use <code>a55_option('FIELD NAME')</code> function, example:<br>
+	<code>
+		a55_option('contact_phone');
+	</code>	
+</p>
+<p>
+	<strong>Can I hide theme setting (this page) from my user?</strong><br>
+	Yes you can, add this code to your <code>functions.php</code> file.<br>
+	<code>
+		define('ATOMIC55_DISABLE_THEME_SETTING_PAGE', TRUE); // if you want to re-enable this page, change to FALSE
+	</code>	
+</p>
+<p>
+	<strong>Can display map from my theme setting?</strong><br>
+	Yes you can, There is 2 ways to display map from your theme setting
+</p>
+<ol>
+	<li>Using PHP function: <br>
+		<code>
+			a55_option_map ($control_id, $use_static_map = TRUE, $width = '100%', $height = '400px');
+		</code>	
+	</li>
+	<li>Using Wordpress Shortcode:<br>
+		<code>
+			[a55_option_map controlid="your_map_control_name" static="1" width="100%" height="400px"/]
+		</code>	
+	</li>
+</ol>
+<p>
+	<strong>Can I hide theme setting (this page) from my user?</strong><br>
+	Yes you can, add this code to your <code>functions.php</code> file.<br>
+	<code>
+		define('ATOMIC55_DISABLE_THEME_SETTING_PAGE', TRUE); // if you want to re-enable this page, change to FALSE
+	</code>	
+</p>
+<p>
+	<strong>Can I create predefined section/control?</strong><br>
+	Yes you can, add this code to your <code>functions.php</code> file.<br>
+	<code>a55_theme_section_register($section_id, $args = array());<br>
+a55_theme_control_register($section_id, $control_id, $attr = array());
+	</code>	
+</p>
